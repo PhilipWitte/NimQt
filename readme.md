@@ -14,5 +14,5 @@ Other Notes
 ---
 This uses static libs, but can easily be made to use dynamic libs by doing the following:
 - Change the `CONFIG` value in `main.pro` to `dynamiclib`
-- Make both `initQt` & `sendNim` C++ functions `export "C"`
+- Make both `initQt` & `sendNim` C++ functions `extern "C"`
 - Use Nim's `dynLib` pragma instead of `link` & `passL` to link
