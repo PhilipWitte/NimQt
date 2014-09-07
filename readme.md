@@ -5,8 +5,7 @@ Simple example of using Qt with Nim
 How to Build
 ---
 ```
-$ qmake
-$ make
+$ qmake && make
 $ nim cpp -d:release main
 ```
 
