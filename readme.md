@@ -7,7 +7,7 @@ How to Build
 ```
 $ qmake
 $ make
-$ nim c -d:release main
+$ nim cpp -d:release main
 ```
 
 Other Notes

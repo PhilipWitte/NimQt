@@ -1,6 +1,7 @@
 QT += widgets
 TARGET = NimQt
 TEMPLATE = lib
+CONFIG += release
 CONFIG += staticlib
 SOURCES += main.cpp mainwindow.cpp
 HEADERS +=  mainwindow.h
